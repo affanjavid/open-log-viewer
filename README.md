@@ -55,11 +55,15 @@ Open Log Viewer is available for Linux, Mac and Windows
 
 macOS | Windows | Linux
 -----------------| ---| ---|
-<a href='https://github.com/tmoreno/open-log-viewer/releases/download/1.6.0/open-log-viewer_1.6.0.dmg'>Download</a> | <a href='https://github.com/tmoreno/open-log-viewer/releases/download/1.6.0/open-log-viewer_1.6.0.exe'>Download</a> | <a href='https://github.com/tmoreno/open-log-viewer/releases/download/1.6.0/open-log-viewer_1.6.0.deb'>Debian-based</a> |
+<a href='https://github.com/affanjavid/open-log-viewer/releases/download/v1.6.1/open-log-viewer_1.6.1_arm64.dmg'>Download</a> | <a href='https://github.com/tmoreno/open-log-viewer/releases/download/1.6.0/open-log-viewer_1.6.0.exe'>Download</a> | <a href='https://github.com/tmoreno/open-log-viewer/releases/download/1.6.0/open-log-viewer_1.6.0.deb'>Debian-based</a> |
 | | | <a href='https://github.com/tmoreno/open-log-viewer/releases/download/1.6.0/open-log-viewer_1.6.0.rpm'>RedHat-based</a> |
 
 ## Release Notes
+### Version 1.6.1
+- Added Apple Silicon Support 
 
+#### Improvements
+- Added portugues Brasil translation. Thanks [Heliomar P. Marques](https://github.com/heliomarpm)
 ### Version 1.6.0
 
 #### Improvements

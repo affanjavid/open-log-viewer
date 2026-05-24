@@ -12,15 +12,19 @@
     "start:dev": "cross-env NODE_ENV=development npm run start",
     "pack:win": "electron-builder --win --dir",
     "pack:mac": "electron-builder --mac --dir",
+    "pack:mac:x64": "electron-builder --mac --x64 --dir",
+    "pack:mac:arm64": "electron-builder --mac --arm64 --dir",
     "pack:linux": "electron-builder --linux --dir",
     "dist": "electron-builder -mwl",
     "dist:win": "electron-builder --win --publish=never",
     "dist:mac": "electron-builder --mac --publish=never",
+    "dist:mac:x64": "electron-builder --mac --x64 --publish=never",
+    "dist:mac:arm64": "electron-builder --mac --arm64 --publish=never",
     "dist:linux": "electron-builder --linux --publish=never"
   },
   "build": {
     "appId": "com.tmoreno.openlogviewer",
-    "artifactName": "${name}_${version}.${ext}",
+    "artifactName": "${name}_${version}_${arch}.${ext}",
     "files": [
       "main.js",
       "preload.js",
@@ -75,8 +79,8 @@
   "devDependencies": {
     "cross-env": "7.0.2",
     "css-loader": "3.4.2",
-    "electron": "8.1.1",
-    "electron-builder": "22.4.1",
+    "electron": "11.5.0",
+    "electron-builder": "24.13.3",
     "electron-reload": "1.5.0",
     "file-loader": "6.0.0",
     "style-loader": "1.1.3",
